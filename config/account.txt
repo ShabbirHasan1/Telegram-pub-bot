@@ -1,0 +1,5 @@
+EDIT DATA HERE
+Info in https://my.telegram.org, under API Development.
+
+api_id = xxxxxx
+api_hash = xxxxxxxxxxxxxxxxxxxx
