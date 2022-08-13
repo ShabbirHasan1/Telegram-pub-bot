@@ -210,7 +210,7 @@ while True:
                 print(f"\n{COLA}╔{Col.reset} {Col.cyan}{N4ME} ~ By loTus04{Col.reset} {COLA}${Col.reset}")
                 print(f"{COLA}║{Col.reset} Bot is ready{COLA}.{Col.reset} ")
                 input(f"{COLA}╚{Col.reset} Channels: {len(listchan)} | Message: {textt.splitlines()[0]}... | Delay: {ts}s || READY ?{COLA}.{Col.reset} \n")
-                pub(ts, f"{textt}\n(Message was sent using @loTus405's autobot)", client, listchan)
+                pub(ts, textt, client, listchan)
     
     elif cmd == ".help":
         help()
